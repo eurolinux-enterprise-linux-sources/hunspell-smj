@@ -1,7 +1,7 @@
 Name: hunspell-smj
 Summary: Lule Saami hunspell dictionaries
 Version: 1.0
-Release: 0.6.beta7%{?dist}
+Release: 0.7.beta7%{?dist}
 Source: http://divvun.no/static_files/hunspell-smj.tar.gz
 Group: Applications/Text
 URL: http://www.divvun.no/index.html
@@ -41,6 +41,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0-0.7.beta7
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0-0.6.beta7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
